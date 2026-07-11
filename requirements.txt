@@ -1,0 +1,9 @@
+flask
+flask[async]
+requests
+ollama
+async
+subprocess
+ddgs[api]
+beautifulsoup4
+os
