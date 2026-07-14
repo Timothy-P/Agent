@@ -371,6 +371,7 @@ async def send_prompt(model: str, prompt: str, tool_call: bool = False) -> None:
 
         if not tool_calls:
             tool_loop = 0
+            hist.add([{"role":"assistant","content":content}],0)
             print(content)
             return
 
